@@ -1,6 +1,6 @@
 
 ╔══════════════════════════════════════════════════════════════╗
-║           SAVORY HAVEN - RESTAURANT WEBSITE                  ║
+║           Royal Rest. - RESTAURANT WEBSITE                  ║
 ║              React + Laravel Full-Stack App                  ║
 ╚══════════════════════════════════════════════════════════════╝
 
