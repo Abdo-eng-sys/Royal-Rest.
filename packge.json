@@ -1,0 +1,8 @@
+{
+  "name": "royal-rest",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vite build" /* or: react-scripts build, next build, npm run build:prod, etc. */
+  },
+  "dependencies": {}
+}
