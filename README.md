@@ -1,4 +1,4 @@
-# Savory Haven - Restaurant Website
+# Royal Rest. - Restaurant Website
 
 A full-stack restaurant website built with **React JS** frontend and **PHP Laravel** API backend.
 
