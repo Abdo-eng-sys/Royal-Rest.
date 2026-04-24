@@ -1,0 +1,88 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║           SAVORY HAVEN - RESTAURANT WEBSITE                  ║
+║              React + Laravel Full-Stack App                  ║
+╚══════════════════════════════════════════════════════════════╝
+
+📁 PROJECT STRUCTURE
+   • Total Files: 72
+   • Frontend Files: React components, pages, hooks, context
+   • Backend Files: Laravel controllers, models, migrations, seeders
+
+🎨 FRONTEND (React JS)
+   ✓ 9 Pages: Home, Menu, Reservations, Cart, Login, Register, Dashboard, About, Contact
+   ✓ 4 Reusable Components: Navbar, Footer, MenuItemCard, PrivateRoute
+   ✓ 2 Context Providers: AuthContext, CartContext
+   ✓ 2 Custom Hooks: useMenu, useReservations
+   ✓ Tailwind CSS with custom theme
+   ✓ Framer Motion animations
+   ✓ Fully responsive design
+   ✓ Shopping cart with localStorage
+
+🔧 BACKEND (Laravel API)
+   ✓ 5 Controllers: Auth, Category, MenuItem, Reservation, Order
+   ✓ 6 Models: User, Category, MenuItem, Reservation, Order, OrderItem
+   ✓ 7 Migrations: users, categories, menu_items, reservations, orders, order_items, tokens
+   ✓ 2 Seeders: 7 categories + 21 menu items with demo data
+   ✓ Laravel Sanctum authentication
+   ✓ CORS configured for frontend
+   ✓ Request validation
+
+📊 DATABASE TABLES
+   • users          - Customer accounts
+   • categories     - Menu categories (Appetizers, Main Course, etc.)
+   • menu_items     - 21 dishes with prices, descriptions, images
+   • reservations   - Table bookings
+   • orders         - Food orders
+   • order_items    - Order line items
+
+🚀 SETUP INSTRUCTIONS
+
+   OPTION 1 - Automated Setup:
+   $ cd restaurant-app
+   $ ./setup.sh
+
+   OPTION 2 - Manual Setup:
+
+   Backend:
+   $ cd backend
+   $ composer install
+   $ cp .env.example .env
+   $ php artisan key:generate
+   # Edit .env with your database credentials
+   $ php artisan migrate
+   $ php artisan db:seed
+   $ php artisan serve
+
+   Frontend:
+   $ cd frontend
+   $ npm install
+   $ npm start
+
+   VS Code Database Client:
+   • Install "Database Client" extension
+   • Connection already configured in .vscode/settings.json
+   • Connect to MySQL and view all tables
+
+🌐 ACCESS URLs
+   • Frontend: http://localhost:3000
+   • Backend API: http://localhost:8000
+   • API Documentation: http://localhost:8000/api/
+
+📱 FEATURES
+   • User Registration & Login
+   • Browse Menu by Category
+   • Search & Filter Dishes
+   • Add to Cart & Checkout
+   • Table Reservations
+   • User Dashboard
+   • Responsive Mobile Design
+   • Demo data pre-loaded
+
+🔐 DEFAULT LOGIN (after seeding)
+   Create your own account via Register page
+   or use any credentials after registration
+
+📦 TECHNOLOGIES
+   Frontend: React 18, React Router, Tailwind CSS, Framer Motion, Axios
+   Backend: Laravel 10, Sanctum, MySQL, Eloquent ORM

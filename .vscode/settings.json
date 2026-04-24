@@ -1,0 +1,16 @@
+{
+  "database-client.showQuery": true,
+  "database-client.defaultLimit": 100,
+  "database-client.connections": [
+    {
+      "name": "Savory Haven DB",
+      "host": "localhost",
+      "port": 3306,
+      "user": "root",
+      "password": "",
+      "database": "savory_haven",
+      "connectionTimeout": 3000,
+      "driver": "MySQL"
+    }
+  ]
+}
