@@ -174,6 +174,3 @@ The frontend will be available at: `http://localhost:3000`
 - Eloquent ORM
 - RESTful API
 
-## License
-
-MIT License - feel free to use for personal or commercial projects.
